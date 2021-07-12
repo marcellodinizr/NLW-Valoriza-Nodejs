@@ -8,7 +8,7 @@ const router = Router();
 const createUserController = new CreateUserController();
 const createTagController = new CreateTagController();
 
-router.post("/users", ensureAdmin, createUserController.handle);
-router.post("/tags", createTagController.handle);
+router.post("/tags", ensureAdmin, createTagController.handle);
+router.post("/users", createUserController.handle);
 
 export { router };
