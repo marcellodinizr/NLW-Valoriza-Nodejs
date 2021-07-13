@@ -26,15 +26,32 @@
 
 * yarn add typescript -D
 * yarn tsc --init
+
 * yarn add express
 * yarn add @types/express -D
+
 * yarn add ts-node-dev -D
+
 * yarn add typeorm reflect-metadata sqlite3
+
 * yarn typeorm migration:create -n CreateUsers
 * yarn typeorm migration:run
+
 * yarn typeorm entity:create -n User
+
 * yarn add uuid
 * yarn add @types/uuid -D
+
 * yarn add express-async-errors
+
 * yarn typeorm migration:create -n CreateTags
 * yarn typeorm migration:run
+
+* yarn add jsonwebtoken
+* yarn add @types/jsonwebtoken -D
+
+* yarn typeorm migration:create -n AlterUserAddPassword
+* yarn migration:run
+
+* yarn add bcryptjs
+* yarn add @types/bcryptjs -D
