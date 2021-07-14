@@ -56,3 +56,5 @@
 
 * yarn add bcryptjs
 * yarn add @types/bcryptjs -D
+
+* yarn typeorm migration:create -n CreateCompliments
